@@ -73,7 +73,7 @@
 
 |    荣誉    |     获得者     |                             备注                             |
 | :--------: | :------------: | :----------------------------------------------------------: |
-| 【七十年】 | 响光、星过等人 | 2019国庆节活动分发；您可以访问[【七十年】](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/base/branches/honour/七十年.html)获得详细信息 |
+| 【七十年】 | 响光、星过等人 | 2019国庆节活动分发；您可以访问[【七十年】](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Base/branches/honour/七十年.html)获得详细信息 |
 
 ### 成果展示 Exhibition
 
