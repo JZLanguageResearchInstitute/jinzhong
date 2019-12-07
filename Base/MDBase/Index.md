@@ -1,5 +1,5 @@
 ---
-https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Index.html
+您正在访问的是：缙云中学校园语言研究所的官网
 ---
 
 ![Logo](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/base/pic/logo.png)
