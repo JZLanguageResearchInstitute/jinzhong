@@ -1,8 +1,8 @@
 ---
-您正在访问的是：浙江省缙云中学校园语言研究所的官方网站主页
+https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Index.html
 ---
 
-![Logo](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/pic/logo.png)
+![Logo](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/base/pic/logo.png)
 
 
 
@@ -10,13 +10,13 @@
 
 > ## **公告板 Board**
 >
-> #### 1.官网上一次更新时间：2019.10.12
+> #### 1.官网上一次更新时间：2019.12.7
 >
-> #### 2.因为高三学业繁忙的原因（目前研究所全体成员皆为应届高三生），没有时间进行官网的更新。因此您访问我所官网时依然会从国庆节活动页面跳入。关于国庆节活动，详情可访问[国庆节活动页面](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/activity/2019国庆节活动.html)
+> #### 2.目前官网处于改版状态中，部分板块可能会在将来取消。如果第一次选考我所大多数成员能够取得好成绩的话，今年春节我所将会有大动作，官网也将根据它进行改版。
 >
-> #### 3.如果您不知道什么是缙云中学校园语言研究所，请访问 [关于缙云中学校园语言研究所](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/BasicInformation.html)
+> #### 4.如果您不知道什么是缙云中学校园语言研究所，请访问 [关于缙云中学校园语言研究所](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/BasicInformation.html)
 >
-> #### 4.在参与我们的工作时，请确保您已经知道我们的隐私政策 [隐私政策](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Privacy.html)
+> #### 5.在参与我们的工作时，请确保您已经知道我们的隐私政策 [隐私政策](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Policy/Privacy.html)
 
 ******
 
@@ -38,7 +38,7 @@
 >
 > **蝉移无定响，星过有馀光**。
 >
-> **隔水**犬争吠，断桥独僧归。
+> **隔水犬争**吠，断桥独僧归。
 >
 > 酒无千日醉，事有百年忙。
 >
@@ -62,9 +62,13 @@
 | 星过 |                  创建词汇                  | 【七十年】荣誉获得者 |
 | 有馀 |                  创建词汇                  |                      |
 
-| 代号 |   贡献   |         备注         |
-| :--: | :------: | :------------------: |
-| 响光 | 贡献词汇 | 【七十年】荣誉获得者 |
+| 代号 |       贡献       |         备注         |
+| :--: | :--------------: | :------------------: |
+| 响光 |     贡献词汇     | 【七十年】荣誉获得者 |
+| 隔水 | 国庆节活动参与者 |                      |
+| 犬争 | 国庆节活动参与者 |                      |
+| 断桥 | 国庆节活动参与者 |                      |
+|      |                  |                      |
 
 ### 特殊荣誉 Special Honor
 
@@ -72,9 +76,11 @@
 
 |    荣誉    |     获得者     |                             备注                             |
 | :--------: | :------------: | :----------------------------------------------------------: |
-| 【七十年】 | 响光、星过等人 | 2019国庆节活动分发；您可以访问[【七十年】](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/branches/七十年.html)获得详细信息 |
+| 【七十年】 | 响光、星过等人 | 2019国庆节活动分发；您可以访问[【七十年】](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/base/branches/honour/七十年.html)获得详细信息 |
 
 ### 成果展示 Exhibition
+
+> 说明：本板块可能在未来被移除
 
 本版块展示的是我所的一些成果，如： [词汇表](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Vocabulary.html) 的最新更新内容。
 
@@ -107,14 +113,6 @@
 > 2019.9.21贡献者<u>星过</u>创建该词条
 >
 > 9.21 贡献者<u>柳塘</u>完善释义 位于缙云中学老教学楼的天文塔顶部，是学校天文社的活动场地
-
-### 
-
-### 板块跳跃 Reflecting Mirror
-
-> 您可以在这里快速连接到我所的一些功能页面
-
-【词汇表】[传送门qwq](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Vocabulary.html)  
 
 ### 待定版块 None
 
