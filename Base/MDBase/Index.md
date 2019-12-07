@@ -1,4 +1,5 @@
-![Logo](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/base/pic/logo.png)
+
+![Logo](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Base/pic/logo.png)
 
 
 
