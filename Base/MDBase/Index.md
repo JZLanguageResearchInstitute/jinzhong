@@ -7,19 +7,19 @@
 
 > ## **公告板 Board**
 >
-> #### 1.官网上一次更新时间：2019.1.11
+> #### 1.官网上一次更新时间：2020.1.21.官网目前仍处于不定状态中，随时可能会更改。
 >
-> #### 2.**新闻：**<u>缙云中学校园语言研究所</u>官网留言板、移动端计划正在进行中。
+> #### 2.如果您不知道什么是缙云中学校园语言研究所，请访问 [关于缙云中学校园语言研究所](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/BasicInformation.html)
 >
-> #### 3.目前官网处于改版状态中，部分板块可能会在将来取消。如果第一次选考我所大多数成员能够取得好成绩的话，今年春节我所将会有大动作，官网也将根据它进行改版。
->
-> #### 4.如果您不知道什么是缙云中学校园语言研究所，请访问 [关于缙云中学校园语言研究所](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/BasicInformation.html)
->
-> #### 5.在参与我们的工作时，请确保您已经知道我们的隐私政策 [隐私政策](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Policy/Privacy.html)
+> #### 3.在参与我们的工作时，请确保您已经知道我们的隐私政策 [隐私政策](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Policy/Privacy.html)
 
-> ## 新闻
+> ####4.一些杂七杂八的内容通知：
 >
-> 2020.1.11 ：<u>缙云中学校园语言研究所官网留言板、移动端计划正在进行中</u>。
+> 2020.1.21 缙云中学校园语言研究所Android移动端内部测试推出。版本号[ChinaRed 0.1.0002]()。我们将在移动端上测试我们推出的 [创作者殿堂]() 以及 [Chanel](l) 两大功能板块。如果您愿意参加我们的内部测试，请私聊我所官方QQ公众号。
+>
+> ![333](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Base/pic/anzhuo.jpg)
+>
+> *移动端示例图*
 
 ******
 
