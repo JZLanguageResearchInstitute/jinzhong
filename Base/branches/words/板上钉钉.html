@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>临时官网</title><link href='https://fonts.loli.net/css?family=Didact+Gothic&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+<title>【板上钉钉（dīng・dīng） 】</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
 iframe { margin: auto; }
@@ -153,31 +153,36 @@ mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-posit
 mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 
 
-@include-when-export url(https://fonts.loli.net/css?family=Didact+Gothic&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext);
-
-/* cyrillic-ext */
-/* cyrillic */
 :root {
-	--window-border: none;
-	--typora-center-window-title: true;
-	--active-file-bg-color: #f3f3f3;
-	--bg-color: #fcfcfc;
-	--control-text-color: #777;
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
 }
 
-.mac-seamless-mode #typora-sidebar {
-	top: 20px;
-	padding-top: 0;
-	height: auto;
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+html {
+    font-size: 16px;
 }
 
-html,
-body,
-#write{
-	background: #fcfcfc;
-	background: var(--bg-color);
-	font-family: 'TeXGyreAdventor', "Century Gothic", "Didact Gothic", "Yu Gothic", sans-serif;
-	font-weight: 300;
+body {
+    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
 }
 h1,
 h2,
@@ -185,334 +190,320 @@ h3,
 h4,
 h5,
 h6 {
-	color: #111;
-	font-family: 'TeXGyreAdventor', "Century Gothic", "Didact Gothic", "Yu Gothic", sans-serif;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
 }
-
-html {
-	font-size:16px;
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
 }
-
-#write {
-	max-width: 914px;
-	text-align: justify;
+h1 tt,
+h1 code {
+    font-size: inherit;
 }
-
-#write>h1:first-child {
-	margin-top: 2.75rem;
+h2 tt,
+h2 code {
+    font-size: inherit;
 }
-#write>h2:first-child {
-	margin-top: 1.75rem;
+h3 tt,
+h3 code {
+    font-size: inherit;
 }
-#write>h3:first-child {
-	margin-top: 1rem;
+h4 tt,
+h4 code {
+    font-size: inherit;
 }
-#write>h4:first-child {
-	margin-top: 0.5rem;
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
 }
 h1 {
-	font-weight: normal;
-	line-height: 4rem;
-	margin: 0 0 1.75rem;
-	padding: 20px 30px;
-	text-align: center;
-	text-transform: uppercase;
-	margin-top: 4rem;
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
 }
 h2 {
-	font-weight: normal;
-	line-height: 3rem;
-	margin: 0 0 1.9375rem;
-	padding: 0 30px;
-	text-align: center;
-	text-transform: uppercase;
-	margin-top: 3rem
+   padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
 }
 h3 {
-	font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.43;
 }
 h4 {
-	font-weight: normal;
+    font-size: 1.25em;
 }
 h5 {
-	font-size: 1.125rem;
-	font-weight: normal;
+    font-size: 1em;
 }
 h6 {
-	font-size: 1rem;
-	font-weight: bold;
+   font-size: 1em;
+    color: #777;
 }
-p {
-	color: #111;
-	font-size: 1rem;
-	line-height: 1.75rem;
-	margin: 0 0 1.25rem;
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
 }
-#write>h3.md-focus:before {
-	left: -1.875rem;
-	top: 0.5rem;
-	padding: 2px;
+li>ol,
+li>ul {
+    margin: 0 0;
 }
-#write>h4.md-focus:before {
-	left: -1.875rem;
-	top: 0.3125rem;
-	padding: 2px;
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
 }
-#write>h5.md-focus:before {
-	left: -1.875rem;
-	top: 0.25rem;
-	padding: 2px;
+
+li p.first {
+    display: inline-block;
 }
-#write>h6.md-focus:before {
-	left: -1.875rem;
-	top: .125rem;
-	padding: 2px;
+ul,
+ol {
+    padding-left: 30px;
 }
-@media screen and (max-width: 48em) {
-	blockquote {
-		margin-left: 1rem;
-		margin-right: 0;
-		padding: 0.5em;
-	}
-	.h1,
-	h1 {
-		font-size: 2.827rem;
-	}
-	.h2,
-	h2 {
-		font-size: 1.999rem;
-	}
-	.h3,
-	h3 {
-		font-size: 1.413rem;
-	}
-	.h4,
-	h4 {
-		font-size: 1.250rem;
-	}
-	.h5,
-	h5 {
-		font-size: 1.150rem;
-	}
-	.h6,
-	h6 {
-		font-size: 1rem;
-	}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
 }
-a,
-.md-def-url {
-	color: #990000;
-	text-decoration: none;
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
 }
-a:hover {
-	text-decoration: underline;
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
 }
 table {
-	margin-bottom: 20px
+    padding: 0;
+    word-break: initial;
 }
-table th,
-table td {
-	padding: 8px;
-	line-height: 1.25rem;
-	vertical-align: top;
-	border-top: 1px solid #ddd
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
 }
-table th {
-	font-weight: bold
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
 }
-table thead th {
-	vertical-align: bottom
+table tr th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
 }
-table caption+thead tr:first-child th,
-table caption+thead tr:first-child td,
-table colgroup+thead tr:first-child th,
-table colgroup+thead tr:first-child td,
-table thead:first-child tr:first-child th,
-table thead:first-child tr:first-child td {
-	border-top: 0
+table tr td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
 }
-table tbody+tbody {
-	border-top: 2px solid #ddd
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
 }
-code, .md-fences {
-	padding: .5em;
-	/*background: #f0f0f0;*/
-	border: 1px solid #ccc;
-	padding: .1em;
-	font-size: 0.9em;
-	margin-left: 0.2em;
-	margin-right: 0.2em;
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
 }
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
 .md-fences {
-	margin: 0 0 20px;
-	font-size: 1em;
-	padding: 0.3em 1em;
-  	padding-top: 0.4em;
-}
-.task-list{
-	padding-left: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
 }
 
-.task-list-item {
-	padding-left:2.125rem;
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
 }
 
-input {
-	border-style: ridge;
-}
-
-.task-list-item input {
-	top: 3px;
-}
-
-.md-task-list-item input {
-	margin-left: -1.5em;
-}
-
-.task-list-item input:before {
-	content: "";
-	display: inline-block;
-	width: 1rem;
-	height: 1rem;
-	vertical-align: middle;
-	text-align: center;
-	border: 1px solid gray;
-	background-color: #fdfdfd;
-	margin-left: 0;
-	-webkit-appearance: none;
-	margin-top: -1rem;
-}
-
-.typora-node .task-list-item input:before {
-	top: 0.3ex;
-	position: absolute;
-}
-
-.task-list-item input:checked:before,
-.task-list-item input[checked]:before{
-	content: '\25FC';
-	/*◘*/
-	font-size: 0.8125rem;
-	line-height: 0.9375rem;
-}
-
-/* Chrome 29+ */
-@media screen and (-webkit-min-device-pixel-ratio:0)
-  and (min-resolution:.001dpcm) {
-    .task-list-item input:before {
-    	margin-top: -0.2rem;
+@media print {
+    html {
+        font-size: 13px;
     }
-
-    .task-list-item input:checked:before,
-	.task-list-item input[checked]:before {
-		margin-top: -0.2rem;
-	}
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
 }
 
-blockquote {
-	margin: 0 0 1.11111rem;
-	padding: 0.5rem 1.11111rem 0 1.05556rem;
-	border-left: 1px solid gray;
-}
-blockquote,
-blockquote p {
-	line-height: 1.6;
-	color: #6f6f6f;
+.md-fences {
+	background-color: #f8f8f8;
 }
 #write pre.md-meta-block {
-	min-height: 30px;
-	background: #f8f8f8;
-	padding: 1.5em;
-	font-weight: 300;
-	font-size: 1em;
-	padding-bottom: 1.5em;
-	padding-top: 3em;
-    margin-top: -1.5em;
-	color: #999;
-	
-	width: 100vw;
-	max-width: calc(100% + 60px);
-	margin-left: -30px;
-	border-left: 30px #f8f8f8 solid;
-	border-right: 30px #f8f8f8 solid;
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
 }
-.MathJax_Display {
-	font-size: 0.9em;
-	margin-top: 0.5em;
-	margin-bottom: 0;
-}
-p.mathjax-block,
-.mathjax-block {
-	padding-bottom: 0;
-}
+
 .mathjax-block>.code-tooltip {
-	bottom: 5px;
-	box-shadow: none;
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
 }
 .md-image>.md-meta {
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-}
-.md-image>img {
-	margin-top: 2px;
-}
-.md-image>.md-meta:first-of-type:before {
-	padding-left: 4px;
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
 }
 
-#typora-source {
-	color: #555;
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
 }
 
-/** ui for windows **/
-#md-searchpanel {
-    border-bottom: 1px solid #ccc;
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
 }
 
-#md-searchpanel .btn {
-    border: 1px solid #ccc;
+.sidebar-tabs {
+    border-bottom: none;
 }
 
-#md-notification:before {
-	top: 14px;
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
 }
 
-#md-notification {
-	background: #eee;
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
 }
 
-.megamenu-menu-panel .btn {
-	border: 1px solid #ccc;
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
 }
 
-#typora-sidebar {
-	box-shadow: none;
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
 }
 
-.file-list-item ,
-.show-folder-name .file-list-item {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	line-height: 20px;
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
 }
 
-.file-list-item-summary {
-	height: 40px;
-	line-height: 20px;
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
 }
 
-.ty-table-edit {
-	background: #ededed;
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+#md-notification .btn {
+    border: 0;
 }
 
 .dropdown-menu .divider {
-	border-color: #e5e5e5;
+    border-color: #e5e5e5;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
 }
 
  .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
 </style>
 </head>
 <body class='typora-export' >
-<div  id='write'  class = 'is-mac'><blockquote><h2><a name="我是临时公告板" class="md-header-anchor"></a><a href=''><span>【我是临时公告板】</span></a></h2><h3><a name="一些杂七杂八的内容通知" class="md-header-anchor"></a><span>一些杂七杂八的内容通知：</span></h3><p><u><span>2020.2.11</span></u><span> 初步重建了移动端，着手编写了GuideBook,暂时未写完，先更新版本查看效果。</span></p><p><u><span>2020.2.11</span></u><span> </span><a href=''><span>更新了词库</span></a><span>。</span></p><p><u><span>2020.2.10</span></u><span> </span><a href=''><span>更新了词库</span></a><span>。夹杂一个小通知：移动端的工程文件不知道怎么丢了233意思也就是说</span><a href=''><span>移动端要重做</span></a><span>，移动端的开发计划估计是真的要凉了。</span></p><p><u><span>2020.2.9</span></u><span> </span><a href=''><span>因为学业原因,移动端开发计划停滞.</span></a></p><p><u><span>2020.1.23</span></u><span> </span><a href=''><span>目前官网封闭，正在重新筹划中。</span></a></p></blockquote><blockquote><p><u><span>2020.1.23</span></u><span> 研究所移动端预计将在春节期间</span><a href=''><span>向公众正式发布</span></a><span>。移动端在接下来的测试中的定位为：</span><a href=''><span>1.</span></a><span>为公众提供一个</span><u><strong><span>快速查询研究所收录成果的平台</span></strong></u><span>（即现在已有的搜索引擎）</span><a href=''><span>2</span></a><span>.</span><strong><span>推送一些精品内容</span></strong><span>。这同时也是目前我们的Chanel准备改版的方向。以及因为没有优质稿件，也没收到多少稿件，目前我所准备在移动端取消</span><a href=''><span>创作者殿堂的板块</span></a><span>，但它依然存在，只是不作为板块录入移动端了。</span></p><p><u><span>2020.1.22</span></u><span> 【关于Chanel项目的通知：】</span></p><p><img src="https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Base/pic/chanel.png" referrerpolicy="no-referrer" alt="chanel"></p><p><u><span>2020.1.21</span></u><span> 缙云中学校园语言研究所Android移动端内部测试推出。版本号</span><a href=''><span>ChinaRed 0.1.0002</span></a><span>。我们将在移动端上测试我们推出的 </span><a href=''><span>创作者殿堂</span></a><span> 以及 </span><a href='l'><span>Chanel</span></a><span> 两大功能板块。如果您愿意参加我们的内部测试，请私聊我所官方QQ公众号。</span></p><p><img src="https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Base/pic/anzhuo.jpg" referrerpolicy="no-referrer" alt="333"></p><p><em><span>移动端示例图</span></em></p></blockquote><h2><a name="" class="md-header-anchor"></a><span> </span></h2></div>
+<div  id='write'  class = 'is-mac'><h4><a name="板上钉钉dīng・dīng）-" class="md-header-anchor"></a><span>【板上</span><strong><span>钉钉（dīng・dīng）</span></strong><span> 】</span></h4><p><span>【释义】成语</span><u><span>板上</span></u><strong><u><span>钉钉</span></u><span>（dìng・dīng）</span></strong><span>原义为：“比喻事情已成定局，不能改变；也比喻做事情牢靠、说话算数。”今指缙云中学20届的高三学子使用</span><strong><span>钉钉</span></strong><span>作为远程网课软件的局面已成定局，不能改变。</span></p><p><span>【相关背景】2020年初受疫情影响，省教育厅做出二月底之前不开学的决定，建议学校通过网络课程的形式展开远程教学。是时应届高三生原本要沿用19年暑假时</span><strong><span>万鹏教育</span></strong><span>提供的</span><strong><span>课后网</span></strong><span>作为网络教学平台，但因为万鹏教育自身的硬件不足与疫情期间大量学校在课后网开课的原因，导致</span><strong><span>万鹏教育</span></strong><span>不得不采取应急措施，通过限时停用课后网的作业布置等功能保障服务器的正常运作，造成缙云中学的相关教学受到影响。不得已之下学校发布通知，建议师生选用钉钉作为另一学校网络授课的平台。</span></p><blockquote><p><span>2020.2.10 研究所词典编纂室创建了该词条</span></p><p><span>检索关键词：板上钉钉</span></p></blockquote><p>&nbsp;</p></div>
 </body>
 </html>
