@@ -153,6 +153,79 @@ mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-posit
 mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 
 
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+.CodeMirror-scroll { overflow-y: hidden; overflow-x: auto; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right-width: 1px; border-right-style: solid; border-right-color: rgb(221, 221, 221); background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; white-space: nowrap; background-position: inherit inherit; background-repeat: inherit inherit; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 30px; z-index: 3; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; border: none !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; border-width: 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; word-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; background-position: 0px 0px; background-repeat: initial initial; }
+.CodeMirror-wrap pre { word-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right-width: 30px; border-right-style: solid; border-right-color: transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right-style: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right-style: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background-color: rgba(255, 255, 0, 0.4); background-position: initial initial; background-repeat: initial initial; }
+@media print { 
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
 @include-when-export url(https://fonts.loli.net/css?family=Didact+Gothic&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext);
 
 /* cyrillic-ext */
@@ -513,6 +586,6 @@ p.mathjax-block,
 </style>
 </head>
 <body class='typora-export' >
-<div  id='write'  class = 'is-mac'><p><img src="https://jzlanguageresearchinstitute.github.io/jinzhong/db/pic/logo.png" referrerpolicy="no-referrer" alt="logo.png"></p><hr /><p><span>“欢迎访问——</span><strong><span>缙云中学校园语言研究所官网</span></strong><span>”</span></p><ul><li><span>什么是缙云中学校园语言研究所?</span><a href=''><span>点击此处查看</span></a></li><li><span>想编撰一些词汇或者投稿？欢迎扫码添加公众号QQ：</span></li></ul><p><img src="https://jzlanguageresearchinstitute.github.io/jinzhong/db/pic/code.jpeg" alt="code.jpeg" style="zoom: 50%;" /></p><hr /><h2><a name="公告板" class="md-header-anchor"></a><a href=''><span>公告板</span></a></h2><p><span> 悄咪咪地跟你说,点击上方的“公告板”可以前往完整的公告板哦</span></p><blockquote><p><span>2020.7.18 官网正式开始改版更新</span></p><p><span>2020.7.13 发布业务变更通知</span></p></blockquote><hr /><h2><a name="特别鸣谢" class="md-header-anchor"></a><span>特别鸣谢</span></h2><p><a href=''><span>“万分感谢在我们过去一年的工作中向我们投稿、提建议的贡献者们。”</span></a></p><p><span>按照隐私政策,我们会为每一位贡献者颁布诗词代号,这既是一种荣誉与感谢,同样也是为了保护贡献者们的个人隐私.</span></p><p><span>下面是贡献者们的诗词代号：</span></p><blockquote><p><strong><span>柳塘春水慢，花坞夕阳迟。</span></strong></p><p><strong><span>蝉移无定响，星过有馀光</span></strong><span>。</span></p><p><strong><span>隔水犬争</span></strong><span>吠，</span><strong><span>断桥独僧</span></strong><span>归。</span></p><p><strong><span>酒无</span></strong><span>千日醉，事有百年忙。</span></p></blockquote><p><span>如果您也愿意加入我们的工作中,还请向我所的QQ公众号投稿.</span></p></div>
+<div  id='write'  class = 'is-mac'><p>&nbsp;</p><p><img src="https://jzlanguageresearchinstitute.github.io/jinzhong/db/pic/logo.png" referrerpolicy="no-referrer" alt="logo.png"></p><hr /><p><span>“欢迎访问——</span><strong><span>缙云中学校园语言研究所官网</span></strong><span>”</span></p><ul><li><span>什么是缙云中学校园语言研究所?</span><a href=''><span>点击此处查看</span></a></li><li><span>想编撰一些词汇或者投稿？欢迎扫码添加公众号QQ：</span></li></ul><p><img src="https://jzlanguageresearchinstitute.github.io/jinzhong/db/pic/code.jpeg" alt="code.jpeg" style="zoom: 50%;" /></p><hr /><h2><a name="公告板" class="md-header-anchor"></a><a href=''><span>公告板</span></a></h2><p><span> 悄咪咪地跟你说,点击上方的“公告板”可以前往完整的公告板哦</span></p><blockquote><p><span>2020.7.18 官网正式开始改版更新</span></p><p><span>2020.7.13 发布业务变更通知</span></p></blockquote><hr /><h2><a name="特别鸣谢" class="md-header-anchor"></a><span>特别鸣谢</span></h2><p><a href=''><span>“万分感谢在我们过去一年的工作中向我们投稿、提建议的贡献者们。”</span></a></p><p><span>按照隐私政策,我们会为每一位贡献者颁布诗词代号,这既是一种荣誉与感谢,同样也是为了保护贡献者们的个人隐私.</span></p><p><span>下面是贡献者们的诗词代号：</span></p><blockquote><p><strong><span>柳塘春水慢，花坞夕阳迟。</span></strong></p><p><strong><span>蝉移无定响，星过有馀光</span></strong><span>。</span></p><p><strong><span>隔水犬争</span></strong><span>吠，</span><strong><span>断桥独僧</span></strong><span>归。</span></p><p><strong><span>酒无</span></strong><span>千日醉，事有百年忙。</span></p></blockquote><p><span>如果您也愿意加入我们的工作中,还请向我所的QQ公众号投稿.</span></p><hr /><h2><a name="宣广栏" class="md-header-anchor"></a><span>宣广栏</span></h2><h4><a name="特殊荣誉" class="md-header-anchor"></a><span>【特殊荣誉】</span></h4><blockquote><p><span>什么是特殊荣誉?</span></p><p><span>特殊荣誉是缙云中学校园语言研究所对</span></p></blockquote><figure><table><thead><tr><th style='text-align:center;' ><span>荣誉</span></th><th style='text-align:center;' ><span>获得者</span></th></tr></thead><tbody><tr><td style='text-align:center;' ><span>【七十年】</span></td><td style='text-align:center;' ><span>星过、响光、柳塘、慢迟</span></td></tr></tbody></table></figure><h4><a name="水獭日知社" class="md-header-anchor"></a><span>【水獭日知社】</span></h4><p><span>“与你分享有关世界的一切”。</span></p><p><span>由缙云中学校园语言研究所部分原班人马打造，致力于与你分享一些有关这个世界的精彩内容。</span></p><p><em><span>扫码即可关注：</span></em></p><p><img src="https://jzlanguageresearchinstitute.github.io/jinzhong/db/pic/otterdaily.png" referrerpolicy="no-referrer" alt="otterdaily"></p><hr /><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang=""><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">JZLanReIn Powered By Github&amp;Typora,markdown</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Coded by ShallowDream&amp;Wendaolee</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 44px;"></div><div class="CodeMirror-gutters" style="display: none; height: 44px;"></div></div></div></pre><p>&nbsp;</p></div>
 </body>
 </html>

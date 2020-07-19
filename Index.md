@@ -1,3 +1,5 @@
+
+
 ![logo.png](https://jzlanguageresearchinstitute.github.io/jinzhong/db/pic/logo.png)
 
 ***
@@ -38,3 +40,35 @@
 > **酒无**千日醉，事有百年忙。
 
 如果您也愿意加入我们的工作中,还请向我所的QQ公众号投稿.
+
+***
+
+## 宣广栏
+
+#### 【特殊荣誉】
+
+> 什么是特殊荣誉?
+>
+> 特殊荣誉是缙云中学校园语言研究所对
+
+|    荣誉    |         获得者         |
+| :--------: | :--------------------: |
+| 【七十年】 | 星过、响光、柳塘、慢迟 |
+
+#### 【水獭日知社】
+
+“与你分享有关世界的一切”。
+
+由缙云中学校园语言研究所部分原班人马打造，致力于与你分享一些有关这个世界的精彩内容。
+
+*扫码即可关注：*
+
+![otterdaily](https://jzlanguageresearchinstitute.github.io/jinzhong/db/pic/otterdaily.png)
+
+***
+
+```
+JZLanReIn Powered By Github&Typora,markdown
+Coded by ShallowDream&Wendaolee
+```
+
