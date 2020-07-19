@@ -6,14 +6,14 @@
 
 “欢迎访问——**缙云中学校园语言研究所官网**”
 
-- 什么是缙云中学校园语言研究所?[点击此处查看]()
+- 什么是缙云中学校园语言研究所?[点击此处查看](https://jzlanguageresearchinstitute.github.io/jinzhong/db/word/basic.html)
 - 想编撰一些词汇或者投稿？欢迎扫码添加公众号QQ：
 
 <img src="https://jzlanguageresearchinstitute.github.io/jinzhong/db/pic/code.jpeg" alt="code.jpeg" style="zoom: 50%;" />
 
 ***
 
-## [公告板]()
+## [公告板](https://jzlanguageresearchinstitute.github.io/jinzhong/db/word/公告板.html)
 
  悄咪咪地跟你说,点击上方的“公告板”可以前往完整的公告板哦
 
@@ -49,11 +49,15 @@
 
 > 什么是特殊荣誉?
 >
-> 特殊荣誉是缙云中学校园语言研究所对
+> 特殊荣誉是缙云中学校园语言研究所对那些为我们的工作提供特殊贡献的贡献者们颁布的荣誉
+>
+> 您可以点击下方
 
-|    荣誉    |         获得者         |
-| :--------: | :--------------------: |
-| 【七十年】 | 星过、响光、柳塘、慢迟 |
+|                           特殊荣誉                           |         获得者         |
+| :----------------------------------------------------------: | :--------------------: |
+| [【七十年】](https://jzlanguageresearchinstitute.github.io/jinzhong/db/bc/70.html) | 星过、响光、柳塘、慢迟 |
+
+
 
 #### 【水獭日知社】
 
