@@ -2,7 +2,7 @@
 
 ## 您所访问的页面不存在哦！
 
-![404](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Base/pic/bqb1.jpg)
+![404](./db/pic/bqb1.jpg)
 
 ***
 
@@ -12,7 +12,7 @@
 >
 > 2.如果您是检索词汇，那么可能您所输入的词汇不存在或者您的输入有误
 
-####[点击此处返回官网-缙云中学校园语言研究所](https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Index.html)
+####[点击此处返回官网-缙云中学校园语言研究所](Index.html)
 
 ***
 

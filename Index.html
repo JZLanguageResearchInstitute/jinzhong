@@ -2,22 +2,24 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>缙云中学校园语言研究所</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+<title>缙云中学校园语言研究所</title>
+<link href='https://fonts.loli.net/css?family=Didact+Gothic&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext' rel='stylesheet' type='text/css' />
+
+<style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
 .for-image #write { padding-left: 8px; padding-right: 8px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
-.typora-export .task-list-item input { pointer-events: none; }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) { 
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
   .CodeMirror-sizer { margin-left: 0px !important; }
@@ -25,14 +27,14 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
-img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
-button, input, select, textarea { color: inherit; font: inherit; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
 p { line-height: inherit; }
-h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
 p { orphans: 4; }
 h1 { font-size: 2rem; }
 h2 { font-size: 1.8rem; }
@@ -44,17 +46,17 @@ h6 { font-size: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
-figure > table { margin: 0px; }
+figure > table { margin: 0px !important; }
 tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
-.CodeMirror-linenumber { user-select: none; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -64,7 +66,7 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping pre { white-space: pre; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
 .md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
@@ -73,7 +75,7 @@ div.hr:focus { cursor: none; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
@@ -82,20 +84,18 @@ blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
-@media print {
-  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid-page; break-before: avoid-page; }
   #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   html.blink-to-pdf { font-size: 13px; }
-  .typora-export #write { break-after: avoid; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid-page; }
   .typora-export #write::after { height: 0px; }
-  .is-mac table { break-inside: avoid; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
 p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
-#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
 p > .md-image:only-child { display: inline-block; width: 100%; }
 #write .MathJax_Display { margin: 0.8em 0px 0px; }
 .md-math-block { width: 100%; }
@@ -105,7 +105,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
 .md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
 .math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
 .md-toc-content::after, .md-toc::after { display: none; }
 .md-toc-item { display: block; color: rgb(65, 131, 196); }
@@ -118,7 +118,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .md-toc-h4 .md-toc-inner { margin-left: 6em; }
 .md-toc-h5 .md-toc-inner { margin-left: 8em; }
 .md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 48em) { 
   .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
   .md-toc-h4 .md-toc-inner { margin-left: 5em; }
   .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
@@ -129,42 +129,38 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
-code { text-align: left; vertical-align: initial; }
-a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
 .md-inline-math .MathJax_SVG .noError { display: none !important; }
 .html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
 .md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
 .MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
 .MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
 .MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
-.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
-.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
 .MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom: 0px; }
+table tr th { border-bottom-width: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
 iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
 svg[id^="mermaidChart"] { line-height: 1em; }
-mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
-@media print {
-  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
-  .typora-export h1::after, .typora-export h2::after, .typora-export h3::after, .typora-export h4::after, .typora-export h5::after, .typora-export h6::after { content: ""; display: block; height: 100px; margin-bottom: -100px; }
-}
 
 
 .CodeMirror { height: auto; }
-.CodeMirror.cm-s-inner { background: inherit; }
-.CodeMirror-scroll { overflow: auto hidden; z-index: 3; }
+.CodeMirror.cm-s-inner { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+.CodeMirror-scroll { overflow-y: hidden; overflow-x: auto; z-index: 3; }
 .CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
-.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
+.CodeMirror-gutters { border-right-width: 1px; border-right-style: solid; border-right-color: rgb(221, 221, 221); background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; white-space: nowrap; background-position: inherit inherit; background-repeat: inherit inherit; }
 .CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
 .cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
 .cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
@@ -200,9 +196,9 @@ mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 .cm-defined { color: rgb(181, 137, 0); }
 div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
 div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
-.cm-s-inner .CodeMirror-activeline-background { background: inherit; }
+.cm-s-inner .CodeMirror-activeline-background { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
 .CodeMirror { position: relative; overflow: hidden; }
-.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
 .CodeMirror-sizer { position: relative; }
 .CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; }
 .CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
@@ -211,75 +207,53 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
 .CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
 .CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 30px; z-index: 3; }
 .CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
-.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; border: none !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
 .CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
 .CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
 .CodeMirror-lines { cursor: text; }
-.CodeMirror pre { border-radius: 0px; border-width: 0px; background: 0px 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; overflow-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; }
-.CodeMirror-wrap pre { overflow-wrap: break-word; white-space: pre-wrap; word-break: normal; }
-.CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
-.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+.CodeMirror pre { border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; border-width: 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; word-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; background-position: 0px 0px; background-repeat: initial initial; }
+.CodeMirror-wrap pre { word-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right-width: 30px; border-right-style: solid; border-right-color: transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right-style: none; width: auto; }
 .CodeMirror-linebackground { position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 0; }
 .CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
 .CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
 .CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
 .CodeMirror-measure pre { position: static; }
-.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right-style: none; width: 0px; }
 .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
 .CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
-.cm-searching { background: rgba(255, 255, 0, 0.4); }
-@media print {
+.cm-searching { background-color: rgba(255, 255, 0, 0.4); background-position: initial initial; background-repeat: initial initial; }
+@media print { 
   .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
 }
 
 
+@include-when-export url(https://fonts.loli.net/css?family=Didact+Gothic&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext);
+
+/* cyrillic-ext */
+/* cyrillic */
 :root {
-    --side-bar-bg-color: #fafafa;
-    --control-text-color: #777;
+	--window-border: none;
+	--typora-center-window-title: true;
+	--active-file-bg-color: #f3f3f3;
+	--bg-color: #fcfcfc;
+	--control-text-color: #777;
 }
 
-@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
-
-/* open-sans-regular - latin-ext_latin */
-  /* open-sans-italic - latin-ext_latin */
-    /* open-sans-700 - latin-ext_latin */
-    /* open-sans-700italic - latin-ext_latin */
-  html {
-    font-size: 16px;
+.mac-seamless-mode #typora-sidebar {
+	top: 20px;
+	padding-top: 0;
+	height: auto;
 }
 
-body {
-    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: rgb(51, 51, 51);
-    line-height: 1.6;
-}
-
-#write {
-    max-width: 860px;
-  	margin: 0 auto;
-  	padding: 30px;
-    padding-bottom: 100px;
-}
-
-@media only screen and (min-width: 1400px) {
-	#write {
-		max-width: 1024px;
-	}
-}
-
-@media only screen and (min-width: 1800px) {
-	#write {
-		max-width: 1200px;
-	}
-}
-
-#write > ul:first-child,
-#write > ol:first-child{
-    margin-top: 30px;
-}
-
-a {
-    color: #4183C4;
+html,
+body,
+#write{
+	background: #fcfcfc;
+	background: var(--bg-color);
+	font-family: 'TeXGyreAdventor', "Century Gothic", "Didact Gothic", "Yu Gothic", sans-serif;
+	font-weight: 300;
 }
 h1,
 h2,
@@ -287,333 +261,334 @@ h3,
 h4,
 h5,
 h6 {
-    position: relative;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
-    line-height: 1.4;
-    cursor: text;
+	color: #111;
+	font-family: 'TeXGyreAdventor', "Century Gothic", "Didact Gothic", "Yu Gothic", sans-serif;
 }
-h1:hover a.anchor,
-h2:hover a.anchor,
-h3:hover a.anchor,
-h4:hover a.anchor,
-h5:hover a.anchor,
-h6:hover a.anchor {
-    text-decoration: none;
+
+html {
+	font-size:16px;
 }
-h1 tt,
-h1 code {
-    font-size: inherit;
+
+#write {
+	max-width: 914px;
+	text-align: justify;
 }
-h2 tt,
-h2 code {
-    font-size: inherit;
+
+#write>h1:first-child {
+	margin-top: 2.75rem;
 }
-h3 tt,
-h3 code {
-    font-size: inherit;
+#write>h2:first-child {
+	margin-top: 1.75rem;
 }
-h4 tt,
-h4 code {
-    font-size: inherit;
+#write>h3:first-child {
+	margin-top: 1rem;
 }
-h5 tt,
-h5 code {
-    font-size: inherit;
-}
-h6 tt,
-h6 code {
-    font-size: inherit;
+#write>h4:first-child {
+	margin-top: 0.5rem;
 }
 h1 {
-    font-size: 2.25em;
-    line-height: 1.2;
-    border-bottom: 1px solid #eee;
+	font-weight: normal;
+	line-height: 4rem;
+	margin: 0 0 1.75rem;
+	padding: 20px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 4rem;
 }
 h2 {
-    font-size: 1.75em;
-    line-height: 1.225;
-    border-bottom: 1px solid #eee;
+	font-weight: normal;
+	line-height: 3rem;
+	margin: 0 0 1.9375rem;
+	padding: 0 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 3rem
 }
-
-@media print {
-    .typora-export h1,
-    .typora-export h2 {
-        border-bottom: none;
-        padding-bottom: initial;
-    }
-
-    .typora-export h1::after,
-    .typora-export h2::after {
-        border-top: 1px solid #eee;
-        margin-top: .3em;
-    }
-}
-
 h3 {
-    font-size: 1.5em;
-    line-height: 1.43;
+	font-weight: normal;
 }
 h4 {
-    font-size: 1.25em;
+	font-weight: normal;
 }
 h5 {
-    font-size: 1em;
+	font-size: 1.125rem;
+	font-weight: normal;
 }
 h6 {
-   font-size: 1em;
-    color: #777;
+	font-size: 1rem;
+	font-weight: bold;
 }
-p,
-blockquote,
-ul,
-ol,
-dl,
-table{
-    margin: 0.8em 0;
+p {
+	color: #111;
+	font-size: 1rem;
+	line-height: 1.75rem;
+	margin: 0 0 1.25rem;
 }
-li>ol,
-li>ul {
-    margin: 0 0;
+#write>h3.md-focus:before {
+	left: -1.875rem;
+	top: 0.5rem;
+	padding: 2px;
 }
-hr {
-    height: 2px;
-    padding: 0;
-    margin: 16px 0;
-    background-color: #e7e7e7;
-    border: 0 none;
-    overflow: hidden;
-    box-sizing: content-box;
+#write>h4.md-focus:before {
+	left: -1.875rem;
+	top: 0.3125rem;
+	padding: 2px;
 }
-
-li p.first {
-    display: inline-block;
+#write>h5.md-focus:before {
+	left: -1.875rem;
+	top: 0.25rem;
+	padding: 2px;
 }
-ul,
-ol {
-    padding-left: 30px;
+#write>h6.md-focus:before {
+	left: -1.875rem;
+	top: .125rem;
+	padding: 2px;
 }
-ul:first-child,
-ol:first-child {
-    margin-top: 0;
+@media screen and (max-width: 48em) {
+	blockquote {
+		margin-left: 1rem;
+		margin-right: 0;
+		padding: 0.5em;
+	}
+	.h1,
+	h1 {
+		font-size: 2.827rem;
+	}
+	.h2,
+	h2 {
+		font-size: 1.999rem;
+	}
+	.h3,
+	h3 {
+		font-size: 1.413rem;
+	}
+	.h4,
+	h4 {
+		font-size: 1.250rem;
+	}
+	.h5,
+	h5 {
+		font-size: 1.150rem;
+	}
+	.h6,
+	h6 {
+		font-size: 1rem;
+	}
 }
-ul:last-child,
-ol:last-child {
-    margin-bottom: 0;
+a,
+.md-def-url {
+	color: #990000;
+	text-decoration: none;
 }
-blockquote {
-    border-left: 4px solid #dfe2e5;
-    padding: 0 15px;
-    color: #777777;
-}
-blockquote blockquote {
-    padding-right: 0;
+a:hover {
+	text-decoration: underline;
 }
 table {
-    padding: 0;
-    word-break: initial;
+	margin-bottom: 20px
 }
-table tr {
-    border-top: 1px solid #dfe2e5;
-    margin: 0;
-    padding: 0;
+table th,
+table td {
+	padding: 8px;
+	line-height: 1.25rem;
+	vertical-align: top;
+	border-top: 1px solid #ddd
 }
-table tr:nth-child(2n),
-thead {
-    background-color: #f8f8f8;
+table th {
+	font-weight: bold
 }
-table tr th {
-    font-weight: bold;
-    border: 1px solid #dfe2e5;
-    border-bottom: 0;
-    margin: 0;
-    padding: 6px 13px;
+table thead th {
+	vertical-align: bottom
 }
-table tr td {
-    border: 1px solid #dfe2e5;
-    margin: 0;
-    padding: 6px 13px;
+table caption+thead tr:first-child th,
+table caption+thead tr:first-child td,
+table colgroup+thead tr:first-child th,
+table colgroup+thead tr:first-child td,
+table thead:first-child tr:first-child th,
+table thead:first-child tr:first-child td {
+	border-top: 0
 }
-table tr th:first-child,
-table tr td:first-child {
-    margin-top: 0;
+table tbody+tbody {
+	border-top: 2px solid #ddd
 }
-table tr th:last-child,
-table tr td:last-child {
-    margin-bottom: 0;
+code, .md-fences {
+	padding: .5em;
+	/*background: #f0f0f0;*/
+	border: 1px solid #ccc;
+	padding: .1em;
+	font-size: 0.9em;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
 }
-
-.CodeMirror-lines {
-    padding-left: 4px;
-}
-
-.code-tooltip {
-    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
-    border-top: 1px solid #eef2f2;
-}
-
-.md-fences,
-code,
-tt {
-    border: 1px solid #e7eaed;
-    background-color: #f8f8f8;
-    border-radius: 3px;
-    padding: 0;
-    padding: 2px 4px 0px 4px;
-    font-size: 0.9em;
-}
-
-code {
-    background-color: #f3f4f4;
-    padding: 0 2px 0 2px;
-}
-
 .md-fences {
-    margin-bottom: 15px;
-    margin-top: 15px;
-    padding-top: 8px;
-    padding-bottom: 6px;
+	margin: 0 0 20px;
+	font-size: 1em;
+	padding: 0.3em 1em;
+  	padding-top: 0.4em;
+}
+.task-list{
+	padding-left: 0;
 }
 
-
-.md-task-list-item > input {
-  margin-left: -1.3em;
+.task-list-item {
+	padding-left:2.125rem;
 }
 
-@media print {
-    html {
-        font-size: 13px;
-    }
-    table,
-    pre {
-        page-break-inside: avoid;
-    }
-    pre {
-        word-wrap: break-word;
-    }
+input {
+	border-style: ridge;
 }
 
-.md-fences {
-	background-color: #f8f8f8;
+.task-list-item input {
+	top: 3px;
+}
+
+.md-task-list-item input {
+	margin-left: -1.5em;
+}
+
+.task-list-item input:before {
+	content: "";
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	vertical-align: middle;
+	text-align: center;
+	border: 1px solid gray;
+	background-color: #fdfdfd;
+	margin-left: 0;
+	-webkit-appearance: none;
+	margin-top: -1rem;
+}
+
+.typora-node .task-list-item input:before {
+	top: 0.3ex;
+	position: absolute;
+}
+
+.task-list-item input:checked:before,
+.task-list-item input[checked]:before{
+	content: '\25FC';
+	/*◘*/
+	font-size: 0.8125rem;
+	line-height: 0.9375rem;
+}
+
+/* Chrome 29+ */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    .task-list-item input:before {
+    	margin-top: -0.2rem;
+    }
+
+    .task-list-item input:checked:before,
+	.task-list-item input[checked]:before {
+		margin-top: -0.2rem;
+	}
+}
+
+blockquote {
+	margin: 0 0 1.11111rem;
+	padding: 0.5rem 1.11111rem 0 1.05556rem;
+	border-left: 1px solid gray;
+}
+blockquote,
+blockquote p {
+	line-height: 1.6;
+	color: #6f6f6f;
 }
 #write pre.md-meta-block {
-	padding: 1rem;
-    font-size: 85%;
-    line-height: 1.45;
-    background-color: #f7f7f7;
-    border: 0;
-    border-radius: 3px;
-    color: #777777;
-    margin-top: 0 !important;
+	min-height: 30px;
+	background: #f8f8f8;
+	padding: 1.5em;
+	font-weight: 300;
+	font-size: 1em;
+	padding-bottom: 1.5em;
+	padding-top: 3em;
+    margin-top: -1.5em;
+	color: #999;
+	
+	width: 100vw;
+	max-width: calc(100% + 60px);
+	margin-left: -30px;
+	border-left: 30px #f8f8f8 solid;
+	border-right: 30px #f8f8f8 solid;
 }
-
+.MathJax_Display {
+	font-size: 0.9em;
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+p.mathjax-block,
+.mathjax-block {
+	padding-bottom: 0;
+}
 .mathjax-block>.code-tooltip {
-	bottom: .375rem;
-}
-
-.md-mathjax-midline {
-    background: #fafafa;
-}
-
-#write>h3.md-focus:before{
-	left: -1.5625rem;
-	top: .375rem;
-}
-#write>h4.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
-}
-#write>h5.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
-}
-#write>h6.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
+	bottom: 5px;
+	box-shadow: none;
 }
 .md-image>.md-meta {
-    /*border: 1px solid #ddd;*/
-    border-radius: 3px;
-    padding: 2px 0px 0px 4px;
-    font-size: 0.9em;
-    color: inherit;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+.md-image>img {
+	margin-top: 2px;
+}
+.md-image>.md-meta:first-of-type:before {
+	padding-left: 4px;
 }
 
-.md-tag {
-    color: #a7a7a7;
-    opacity: 1;
+#typora-source {
+	color: #555;
 }
 
-.md-toc { 
-    margin-top:20px;
-    padding-bottom:20px;
+/** ui for windows **/
+#md-searchpanel {
+    border-bottom: 1px solid #ccc;
 }
 
-.sidebar-tabs {
-    border-bottom: none;
+#md-searchpanel .btn {
+    border: 1px solid #ccc;
 }
 
-#typora-quick-open {
-    border: 1px solid #ddd;
-    background-color: #f8f8f8;
+#md-notification:before {
+	top: 14px;
 }
 
-#typora-quick-open-item {
-    background-color: #FAFAFA;
-    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
-    border-style: solid;
-    border-width: 1px;
+#md-notification {
+	background: #eee;
 }
 
-/** focus mode */
-.on-focus-mode blockquote {
-    border-left-color: rgba(85, 85, 85, 0.12);
+.megamenu-menu-panel .btn {
+	border: 1px solid #ccc;
 }
 
-header, .context-menu, .megamenu-content, footer{
-    font-family: "Segoe UI", "Arial", sans-serif;
+#typora-sidebar {
+	box-shadow: none;
 }
 
-.file-node-content:hover .file-node-icon,
-.file-node-content:hover .file-node-open-state{
-    visibility: visible;
+.file-list-item ,
+.show-folder-name .file-list-item {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 20px;
 }
 
-.mac-seamless-mode #typora-sidebar {
-    background-color: #fafafa;
-    background-color: var(--side-bar-bg-color);
+.file-list-item-summary {
+	height: 40px;
+	line-height: 20px;
 }
 
-.md-lang {
-    color: #b4654d;
-}
-
-.html-for-mac .context-menu {
-    --item-hover-bg-color: #E6F0FE;
-}
-
-#md-notification .btn {
-    border: 0;
+.ty-table-edit {
+	background: #ededed;
 }
 
 .dropdown-menu .divider {
-    border-color: #e5e5e5;
+	border-color: #e5e5e5;
 }
 
-.ty-preferences .window-content {
-    background-color: #fafafa;
-}
-
-.ty-preferences .nav-group-item.active {
-    color: white;
-    background: #999;
-}
-
-
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
 </style>
 </head>
-<body class='typora-export os-windows'>
-<div id='write'  class=''><p>&nbsp;</p><p><img src="./db/pic/logo.png" referrerpolicy="no-referrer" alt="logo.png"></p><hr /><p><span>“欢迎访问——</span><strong><span>缙云中学校园语言研究所官网</span></strong><span>”</span></p><ul><li><span>什么是缙云中学校园语言研究所?</span><a href='https://jzlanguageresearchinstitute.github.io/jinzhong/db/word/basic.html'><span>点击此处查看</span></a></li><li><span>想编撰一些词汇或者投稿？欢迎扫码添加公众号QQ：</span></li></ul><p><img src="./db/pic/code.jpg" alt="code.jpg" style="zoom:50%;" /></p><hr /><h2><a name="公告板httpswwwotterdailycndbword公告板html" class="md-header-anchor"></a><a href='https://www.otterdaily.cn/db/word/公告板.html'><span>公告板</span></a></h2><p><span> 悄咪咪地跟你说,点击上方的“公告板”可以前往完整的公告板哦</span></p><blockquote><p><span>2020.7.22 更改了图床，原先图床转为备用图床。</span></p><p><span>2020.7.21 官网绑定了域名</span><a href='http://www.otterdaily.cn' target='_blank' class='url'>www.otterdaily.cn</a><span>,您可以通过</span><a href='http://www.otterdaily.cn/Index.html' target='_blank' class='url'>www.otterdaily.cn/Index.html</a><span> 访问官网</span></p><p><span>2020.7.20 官网更新完成.APP内测尚在进行中.</span></p><p><span>2020.7.18 官网正式开始改版更新</span></p><p><span>2020.7.13 发布业务变更通知</span></p></blockquote><hr /><h2><a name="特别鸣谢" class="md-header-anchor"></a><span>特别鸣谢</span></h2><p><a href=''><span>“万分感谢在我们过去一年的工作中向我们投稿、提建议的贡献者们。”</span></a></p><p><span>按照隐私政策,我们会为每一位贡献者颁布诗词代号,这既是一种荣誉与感谢,同样也是为了保护贡献者们的个人隐私.</span></p><p><span>下面是贡献者们的诗词代号：</span></p><blockquote><p><strong><span>柳塘春水慢，花坞夕阳迟。</span></strong></p><p><strong><span>蝉移无定响，星过有馀光</span></strong><span>。</span></p><p><strong><span>隔水犬争</span></strong><span>吠，</span><strong><span>断桥独僧</span></strong><span>归。</span></p><p><strong><span>酒无</span></strong><span>千日醉，事有百年忙。</span></p></blockquote><p><span>如果您也愿意加入我们的工作中,还请向我所的QQ公众号投稿.</span></p><hr /><h2><a name="宣广栏" class="md-header-anchor"></a><span>宣广栏</span></h2><h4><a name="2019缙中校园语言研究所六大词汇" class="md-header-anchor"></a><a href=''><span>【2019缙中校园语言研究所六大词汇】</span></a></h4><p><img src="./db/pic/6.png" referrerpolicy="no-referrer" alt="6"></p><p><span>这六大词汇分别是：月下散步、近终人/近终学子、尽忠人/尽忠学子、缙中精神面、我们都是做梦人、板上钉钉。</span></p><p><span>您可以通过官方app的搜索引擎检索该词。</span></p><p><span>　　</span></p><h4><a name="特殊荣誉" class="md-header-anchor"></a><a href=''><span>【特殊荣誉】</span></a></h4><blockquote><p><span>什么是特殊荣誉?</span></p><p><span>特殊荣誉是缙云中学校园语言研究所对那些为我们的工作提供特殊贡献的贡献者们颁布的荣誉</span></p><p><span>您可以点击下方的红字</span><u><span>七十年</span></u><span>查看该获奖情况</span></p></blockquote><figure><table><thead><tr><th style='text-align:center;' ><span>特殊荣誉</span></th><th style='text-align:center;' ><span>获得者</span></th></tr></thead><tbody><tr><td style='text-align:center;' ><a href='https://www.otterdaily.cn/db/bc/70.html'><span>【七十年】</span></a></td><td style='text-align:center;' ><span>星过、响光、柳塘、慢迟</span></td></tr></tbody></table></figure><hr /><p><span>　　</span></p><h4><a name="水獭日知社" class="md-header-anchor"></a><a href=''><span>【水獭日知社】</span></a></h4><p><span>“与你分享有关世界的一切”。</span></p><p><span>由缙云中学校园语言研究所部分原班人马打造，致力于与你分享一些有关这个世界的精彩内容。</span></p><p><em><span>扫码即可关注：</span></em></p><p><img src="./db/pic/otterdaily.png" referrerpolicy="no-referrer" alt="otterdaily"></p><hr /><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang="markdown"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="markdown"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">JZ LanReIn </span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">* Powered By </span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-em">*Github&amp;Typora&amp;markdown</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-block-start cm-variable-2">* </span><span class="cm-variable-2">Coded by </span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-em">*ShallowDream&amp;Wendaolee</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 154px;"></div><div class="CodeMirror-gutters" style="display: none; height: 154px;"></div></div></div></pre><p>&nbsp;</p></div>
+<body class='typora-export' >
+<div  id='write'  class = 'is-mac'><p>&nbsp;</p><p><img src="./db/pic/logo.png" referrerpolicy="no-referrer" alt="logo.png"></p><hr /><p><span>“欢迎访问——</span><strong><span>缙云中学校园语言研究所官网</span></strong><span>”</span></p><ul><li><span>什么是缙云中学校s园语言研究所?</span><a href='./db/word/basic.html'><span>点击此处查看</span></a></li><li><span>想编撰一些词汇或者投稿？欢迎扫码添加公众号QQ：</span></li></ul><p><img src="./db/pic/code.jpeg" alt="code.jpeg" style="zoom:50%;" /></p><hr /><h2><a name="公告板httpswwwotterdailycndbword公告板html" class="md-header-anchor"></a><a href='https://www.otterdaily.cn/db/word/公告板.html'><span>公告板</span></a></h2><p><span> 悄咪咪地跟你说,点击上方的“公告板”可以前往完整的公告板哦</span></p><blockquote><p><span>2020.10.15 更新了官网，修补了图床。</span></p><p><span>2020.7.22 更改了图床，原先图床转为备用图床。</span></p><p><span>2020.7.21 官网绑定了域名</span><a href='http://www.otterdaily.cn' target='_blank' class='url'>www.otterdaily.cn</a><span>,您可以通过</span><a href='http://www.otterdaily.cn/Index.html' target='_blank' class='url'>www.otterdaily.cn/Index.html</a><span> 访问官网</span></p><p><span>2020.7.20 官网更新完成.APP内测尚在进行中.</span></p><p><span>2020.7.18 官网正式开始改版更新</span></p><p><span>2020.7.13 发布业务变更通知</span></p></blockquote><hr /><h2><a name="特别鸣谢" class="md-header-anchor"></a><span>特别鸣谢</span></h2><p><a href=''><span>“万分感谢在我们过去一年的工作中向我们投稿、提建议的贡献者们。”</span></a></p><p><span>按照隐私政策,我们会为每一位贡献者颁布诗词代号,这既是一种荣誉与感谢,同样也是为了保护贡献者们的个人隐私.</span></p><p><span>下面是贡献者们的诗词代号：</span></p><blockquote><p><strong><span>柳塘春水慢，花坞夕阳迟。</span></strong></p><p><strong><span>蝉移无定响，星过有馀光</span></strong><span>。</span></p><p><strong><span>隔水犬争</span></strong><span>吠，</span><strong><span>断桥独僧</span></strong><span>归。</span></p><p><strong><span>酒无</span></strong><span>千日醉，事有百年忙。</span></p></blockquote><p><span>如果您也愿意加入我们的工作中,还请向我所的QQ公众号投稿.</span></p><hr /><h2><a name="宣广栏" class="md-header-anchor"></a><span>宣广栏</span></h2><h4><a name="2019缙中校园语言研究所六大词汇" class="md-header-anchor"></a><a href=''><span>【2019缙中校园语言研究所六大词汇】</span></a></h4><p><img src="./db/pic/6.png" referrerpolicy="no-referrer" alt="6"></p><p><span>这六大词汇分别是：月下散步、近终人/近终学子、尽忠人/尽忠学子、缙中精神面、我们都是做梦人、板上钉钉。</span></p><p><span>您可以通过官方app的搜索引擎检索该词。</span></p><p><span>　　</span></p><h4><a name="特殊荣誉" class="md-header-anchor"></a><a href=''><span>【特殊荣誉】</span></a></h4><blockquote><p><span>什么是特殊荣誉?</span></p><p><span>特殊荣誉是缙云中学校园语言研究所对那些为我们的工作提供特殊贡献的贡献者们颁布的荣誉</span></p><p><span>您可以点击下方的红字</span><u><span>七十年</span></u><span>查看该获奖情况</span></p></blockquote><figure><table><thead><tr><th style='text-align:center;' ><span>特殊荣誉</span></th><th style='text-align:center;' ><span>获得者</span></th></tr></thead><tbody><tr><td style='text-align:center;' ><a href='./db/bc/70.html'><span>【七十年】</span></a></td><td style='text-align:center;' ><span>星过、响光、柳塘、慢迟</span></td></tr></tbody></table></figure><hr /><p><span>　　</span></p><h4><a name="水獭日知社" class="md-header-anchor"></a><a href=''><span>【水獭日知社】</span></a></h4><p><span>“与你分享有关世界的一切”。</span></p><p><span>由缙云中学校园语言研究所部分原班人马打造，致力于与你分享一些有关这个世界的精彩内容。</span></p><p><em><span>扫码即可关注：</span></em></p><p><img src="./db/pic/otterdaily.png" referrerpolicy="no-referrer" alt="otterdaily"></p><hr /><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang="markdown"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="markdown"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">JZ LanReIn </span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">* Powered By </span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-em">*Github&amp;Typora&amp;markdown</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-block-start cm-variable-2">* </span><span class="cm-variable-2">Coded by </span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-em">*ShallowDream&amp;Wendaolee</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 132px;"></div><div class="CodeMirror-gutters" style="display: none; height: 132px;"></div></div></div></pre><p>&nbsp;</p></div>
 </body>
 </html>
