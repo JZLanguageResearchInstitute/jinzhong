@@ -61,7 +61,7 @@
 
 而上方的深红色区域则为功能板块：
 
-<img src="../pic/guide2.jpg" alt="guide2" style="zoom:50%;" />
+<img src="../pic/guide2.jpg" alt="guide2" style="zoom: 33%;" />
 
 通过点击不同的图标，您可以使用不同的功能。
 
@@ -79,7 +79,7 @@
 
 点开侧边栏，您将会看到三个选项栏：
 
-<img src="../pic/guide4.jpg" alt="guide4" style="zoom:50%;" />
+<img src="../pic/guide4.jpg" alt="guide4" style="zoom: 33%;" />
 
 这三个栏目的功能分别为：
 
