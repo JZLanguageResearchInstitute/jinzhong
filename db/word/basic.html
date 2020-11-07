@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>关于缙云中学校园语言研究所</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+<title>关于缙云中学校园语言研究所</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
 iframe { margin: auto; }
@@ -160,999 +160,387 @@ mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 }
 
 
-/* Flowchart variables */
-/* Sequence Diagram variables */
-/* Gantt chart variables */
-/* state colors */
-.label {
-  
-  color: #333; }
-
-.label text {
-  fill: #333; }
-
-.node rect,
-.node circle,
-.node ellipse,
-.node polygon {
-  fill: #BDD5EA;
-  stroke: #9370DB;
-  stroke-width: 1px; }
-
-.node .label {
-  text-align: center; }
-
-.node.clickable {
-  cursor: pointer; }
-
-.arrowheadPath {
-  fill: lightgrey; }
-
-.edgePath .path {
-  stroke: lightgrey;
-  stroke-width: 1.5px; }
-
-.edgeLabel {
-  background-color: #e8e8e8;
-  text-align: center; }
-
-.cluster rect {
-  fill: #6D6D65;
-  stroke: rgba(255, 255, 255, 0.25);
-  stroke-width: 1px; }
-
-.cluster text {
-  fill: #F9FFFE; }
-
-div.mermaidTooltip {
-  position: absolute;
-  text-align: center;
-  max-width: 200px;
-  padding: 2px;
-  
-  font-size: 12px;
-  background: #6D6D65;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 2px;
-  pointer-events: none;
-  z-index: 100; }
-
-.actor {
-  stroke: #81B1DB;
-  fill: #BDD5EA; }
-
-text.actor {
-  fill: black;
-  stroke: none; }
-
-.actor-line {
-  stroke: lightgrey; }
-
-.messageLine0 {
-  stroke-width: 1.5;
-  stroke-dasharray: '2 2';
-  stroke: lightgrey; }
-
-.messageLine1 {
-  stroke-width: 1.5;
-  stroke-dasharray: '2 2';
-  stroke: lightgrey; }
-
-#arrowhead {
-  fill: lightgrey; }
-
-.sequenceNumber {
-  fill: white; }
-
-#sequencenumber {
-  fill: lightgrey; }
-
-#crosshead path {
-  fill: lightgrey !important;
-  stroke: lightgrey !important; }
-
-.messageText {
-  fill: lightgrey;
-  stroke: none; }
-
-.labelBox {
-  stroke: #81B1DB;
-  fill: #BDD5EA; }
-
-.labelText {
-  fill: #323D47;
-  stroke: none; }
-
-.loopText {
-  fill: lightgrey;
-  stroke: none; }
-
-.loopLine {
-  stroke-width: 2;
-  stroke-dasharray: '2 2';
-  stroke: #81B1DB; }
-
-.note {
-  stroke: rgba(255, 255, 255, 0.25);
-  fill: #fff5ad; }
-
-.noteText {
-  fill: black;
-  stroke: none;
-  
-  font-size: 14px; }
-
-.activation0 {
-  fill: #f4f4f4;
-  stroke: #666; }
-
-.activation1 {
-  fill: #f4f4f4;
-  stroke: #666; }
-
-.activation2 {
-  fill: #f4f4f4;
-  stroke: #666; }
-
-/** Section styling */
-.section {
-  stroke: none;
-  opacity: 0.2; }
-
-.section0 {
-  fill: rgba(255, 255, 255, 0.3); }
-
-.section2 {
-  fill: #EAE8B9; }
-
-.section1,
-.section3 {
-  fill: white;
-  opacity: 0.2; }
-
-.sectionTitle0 {
-  fill: #F9FFFE; }
-
-.sectionTitle1 {
-  fill: #F9FFFE; }
-
-.sectionTitle2 {
-  fill: #F9FFFE; }
-
-.sectionTitle3 {
-  fill: #F9FFFE; }
-
-.sectionTitle {
-  text-anchor: start;
-  font-size: 11px;
-  text-height: 14px;
-   }
-
-/* Grid and axis */
-.grid .tick {
-  stroke: lightgrey;
-  opacity: 0.3;
-  shape-rendering: crispEdges; }
-
-.grid path {
-  stroke-width: 0; }
-
-/* Today line */
-.today {
-  fill: none;
-  stroke: #DB5757;
-  stroke-width: 2px; }
-
-/* Task styling */
-/* Default task */
-.task {
-  stroke-width: 2; }
-
-.taskText {
-  text-anchor: middle;
-   }
-
-.taskText:not([font-size]) {
-  font-size: 11px; }
-
-.taskTextOutsideRight {
-  fill: #323D47;
-  text-anchor: start;
-  font-size: 11px;
-   }
-
-.taskTextOutsideLeft {
-  fill: #323D47;
-  text-anchor: end;
-  font-size: 11px; }
-
-/* Special case clickable */
-.task.clickable {
-  cursor: pointer; }
-
-.taskText.clickable {
-  cursor: pointer;
-  fill: #003163 !important;
-  font-weight: bold; }
-
-.taskTextOutsideLeft.clickable {
-  cursor: pointer;
-  fill: #003163 !important;
-  font-weight: bold; }
-
-.taskTextOutsideRight.clickable {
-  cursor: pointer;
-  fill: #003163 !important;
-  font-weight: bold; }
-
-/* Specific task settings for the sections*/
-.taskText0,
-.taskText1,
-.taskText2,
-.taskText3 {
-  fill: #323D47; }
-
-.task0,
-.task1,
-.task2,
-.task3 {
-  fill: #BDD5EA;
-  stroke: rgba(255, 255, 255, 0.5); }
-
-.taskTextOutside0,
-.taskTextOutside2 {
-  fill: lightgrey; }
-
-.taskTextOutside1,
-.taskTextOutside3 {
-  fill: lightgrey; }
-
-/* Active task */
-.active0,
-.active1,
-.active2,
-.active3 {
-  fill: #81B1DB;
-  stroke: rgba(255, 255, 255, 0.5); }
-
-.activeText0,
-.activeText1,
-.activeText2,
-.activeText3 {
-  fill: #323D47 !important; }
-
-/* Completed task */
-.done0,
-.done1,
-.done2,
-.done3 {
-  stroke: grey;
-  fill: lightgrey;
-  stroke-width: 2; }
-
-.doneText0,
-.doneText1,
-.doneText2,
-.doneText3 {
-  fill: #323D47 !important; }
-
-/* Tasks on the critical line */
-.crit0,
-.crit1,
-.crit2,
-.crit3 {
-  stroke: #E83737;
-  fill: #E83737;
-  stroke-width: 2; }
-
-.activeCrit0,
-.activeCrit1,
-.activeCrit2,
-.activeCrit3 {
-  stroke: #E83737;
-  fill: #81B1DB;
-  stroke-width: 2; }
-
-.doneCrit0,
-.doneCrit1,
-.doneCrit2,
-.doneCrit3 {
-  stroke: #E83737;
-  fill: lightgrey;
-  stroke-width: 2;
-  cursor: pointer;
-  shape-rendering: crispEdges; }
-
-.milestone {
-  transform: rotate(45deg) scale(0.8, 0.8); }
-
-.milestoneText {
-  font-style: italic; }
-
-.doneCritText0,
-.doneCritText1,
-.doneCritText2,
-.doneCritText3 {
-  fill: #323D47 !important; }
-
-.activeCritText0,
-.activeCritText1,
-.activeCritText2,
-.activeCritText3 {
-  fill: #323D47 !important; }
-
-.titleText {
-  text-anchor: middle;
-  font-size: 18px;
-  fill: #323D47;
-   }
-
-g.classGroup text {
-  fill: #9370DB;
-  stroke: none;
-  
-  font-size: 10px; }
-  g.classGroup text .title {
-    font-weight: bolder; }
-
-g.classGroup rect {
-  fill: #BDD5EA;
-  stroke: #9370DB; }
-
-g.classGroup line {
-  stroke: #9370DB;
-  stroke-width: 1; }
-
-.classLabel .box {
-  stroke: none;
-  stroke-width: 0;
-  fill: #BDD5EA;
-  opacity: 0.5; }
-
-.classLabel .label {
-  fill: #9370DB;
-  font-size: 10px; }
-
-.relation {
-  stroke: #9370DB;
-  stroke-width: 1;
-  fill: none; }
-
-#compositionStart {
-  fill: #9370DB;
-  stroke: #9370DB;
-  stroke-width: 1; }
-
-#compositionEnd {
-  fill: #9370DB;
-  stroke: #9370DB;
-  stroke-width: 1; }
-
-#aggregationStart {
-  fill: #BDD5EA;
-  stroke: #9370DB;
-  stroke-width: 1; }
-
-#aggregationEnd {
-  fill: #BDD5EA;
-  stroke: #9370DB;
-  stroke-width: 1; }
-
-#dependencyStart {
-  fill: #9370DB;
-  stroke: #9370DB;
-  stroke-width: 1; }
-
-#dependencyEnd {
-  fill: #9370DB;
-  stroke: #9370DB;
-  stroke-width: 1; }
-
-#extensionStart {
-  fill: #9370DB;
-  stroke: #9370DB;
-  stroke-width: 1; }
-
-#extensionEnd {
-  fill: #9370DB;
-  stroke: #9370DB;
-  stroke-width: 1; }
-
-.commit-id,
-.commit-msg,
-.branch-label {
-  fill: lightgrey;
-  color: lightgrey;
-   }
-
-.pieTitleText {
-  text-anchor: middle;
-  font-size: 25px;
-  fill: #eee;
-}
-
-g.stateGroup text {
-  stroke: none;
-  font-size: 10px;
-}
-
-g.stateGroup circle {
-  fill: white !important;
-  stroke: white !important;
-}
-
-g.stateGroup .state-title {
-  font-weight: bolder;
-  fill: black; }
-
-g.stateGroup rect {
-  fill: #ececff;
-  stroke: #9370DB; }
-
-g.stateGroup line {
-  stroke: #9370DB;
-  stroke-width: 1; }
-
-.transition {
-  stroke: #9370DB;
-  stroke-width: 1;
-  fill: none; }
-
-.stateGroup .composit {
-  fill: #555;
-  border-bottom: 1px; }
-
-.state-note {
-  stroke: rgba(255, 255, 255, 0.25);
-  fill: #fff5ad; }
-  .state-note text {
-    fill: black;
-    stroke: none;
-    font-size: 10px; }
-
-.stateLabel .box {
-  stroke: none;
-  stroke-width: 0;
-  fill: #BDD5EA;
-  opacity: 0.5; }
-
-.stateLabel text {
-  fill: black;
-  font-size: 10px;
-  font-weight: bold;
-}
-
-.cluster-label {
-  color:black;
-}
-
-.statediagram-cluster rect {
-  fill: #BDD5EA;
-  stroke: #9370DB; 
-  stroke-width: 1px;
-}
-.statediagram-cluster rect.outer {
-  rx: 5px;
-  ry: 5px;
-}
-.statediagram-state .divider {
-  stroke: #9370DB; 
-}
-
-.statediagram-state .title-state {
-  rx: 5px;
-  ry: 5px;
-}
-.statediagram-cluster.statediagram-cluster .inner {
-  fill: white;
-}
-.statediagram-cluster.statediagram-cluster-alt .inner {
-  fill: #e0e0e0;
-}
-
-.statediagram-cluster .inner {
-  rx:0;
-  ry:0;
-}
-
-.statediagram-state rect.basic {
-  rx: 5px;
-  ry: 5px;
-}
-.statediagram-state rect.divider {
-  stroke-dasharray: 10,10;
-  fill: #efefef;
-}
-
-.note-edge {
-  stroke-dasharray: 5;
-}
-
-.statediagram-note rect {
-  stroke: var(--cluster-border);
-  fill: #fff5ad;
-  stroke-width: 1px;
-  rx: 0;
-  ry: 0;
-}
-
-.node circle.state-start {
-  fill: black;
-  stroke: black;
-}
-.node circle.state-end {
-  fill: black;
-  stroke: white;
-  stroke-width: 1.5
-}
-#statediagram-barbEnd {
-  fill: #9370DB; 
-}
-
-/* CSS Document */
-
-/** code highlight */
-
-.cm-s-inner .cm-variable,
-.cm-s-inner .cm-operator,
-.cm-s-inner .cm-property {
-    color: #b8bfc6;
-}
-
-.cm-s-inner .cm-keyword {
-    color: #C88FD0;
-}
-
-.cm-s-inner .cm-tag {
-    color: #7DF46A;
-}
-
-.cm-s-inner .cm-attribute {
-    color: #7575E4;
-}
-
-.CodeMirror div.CodeMirror-cursor {
-    border-left: 1px solid #b8bfc6;
-    z-index: 3;
-}
-
-.cm-s-inner .cm-string {
-    color: #D26B6B;
-}
-
-.cm-s-inner .cm-comment,
-.cm-s-inner.cm-comment {
-    color: #DA924A;
-}
-
-.cm-s-inner .cm-header,
-.cm-s-inner .cm-def,
-.cm-s-inner.cm-header,
-.cm-s-inner.cm-def {
-    color: #8d8df0;
-}
-
-.cm-s-inner .cm-quote,
-.cm-s-inner.cm-quote {
-    color: #57ac57;
-}
-
-.cm-s-inner .cm-hr {
-    color: #d8d5d5;
-}
-
-.cm-s-inner .cm-link {
-    color: #d3d3ef;
-}
-
-.cm-s-inner .cm-negative {
-    color: #d95050;
-}
-
-.cm-s-inner .cm-positive {
-    color: #50e650;
-}
-
-.cm-s-inner .cm-string-2 {
-    color: #f50;
-}
-
-.cm-s-inner .cm-meta,
-.cm-s-inner .cm-qualifier {
-    color: #b7b3b3;
-}
-
-.cm-s-inner .cm-builtin {
-    color: #f3b3f8;
-}
-
-.cm-s-inner .cm-bracket {
-    color: #997;
-}
-
-.cm-s-inner .cm-atom,
-.cm-s-inner.cm-atom {
-    color: #84B6CB;
-}
-
-.cm-s-inner .cm-number {
-    color: #64AB8F;
-}
-
-.cm-s-inner .cm-variable {
-    color: #b8bfc6;
-}
-
-.cm-s-inner .cm-variable-2 {
-    color: #9FBAD5;
-}
-
-.cm-s-inner .cm-variable-3 {
-    color: #1cc685;
-}
-
-.CodeMirror-selectedtext,
-.CodeMirror-selected {
-    background: #4a89dc;
-    color: #fff !important;
-    text-shadow: none;
-}
-
-.CodeMirror-gutters {
-    border-right: none;
-}
-
-/* CSS Document */
-
-/** markdown source **/
-.cm-s-typora-default .cm-header, 
-.cm-s-typora-default .cm-property
-{
-    color: #cebcca;
-}
-
-.CodeMirror.cm-s-typora-default div.CodeMirror-cursor{
-    border-left: 3px solid #b8bfc6;
-}
-
-.cm-s-typora-default .cm-comment {
-    color: #9FB1FF;
-}
-
-.cm-s-typora-default .cm-string {
-    color: #A7A7D9
-}
-
-.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
-    color: #848695;
-    font-style: italic;
-}
-
-.cm-s-typora-default .cm-link {
-    color: #95B94B;
-}
-
-.cm-s-typora-default .CodeMirror-activeline-background {
-    background: rgba(51, 51, 51, 0.72);
-}
-
-.cm-s-typora-default .cm-comment, .cm-s-typora-default .cm-code {
-	color: #8aa1e1;
-}
-/* CSS Document */
-
-@import "";
-@import "";
-@import "";
-
-/* vietnamese */
-/* latin-ext */
-/* latin */
-/* latin */
 :root {
-    --text-color: #fff;
-    --bg-color: #666;
-    --code-block-bg-color: #4d4d4d;
-    --side-bar-bg-color: #4d4d4d;
-    --window-border: 1px solid #555;
-
-    --active-file-bg-color: #666;
-    --active-file-text-color: #fff;
-    --item-hover-text-color: #fff;
-    --control-text-color: #d5d5d5;
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
 }
 
-html {
-	font-family: 'Questrial', sans-serif;
-	font-size: 18px;
-	-webkit-font-smoothing: antialiased;
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
 }
 
-html, body {
-    background-color: #666;
-    color: #fff;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-}
-
-.md-toc-inner:before {
-    content: "- ";
-}
-
-.md-image>.md-meta {
-    color: #0c0759;
-    font-size: 0.9rem;
-}
-
-pre,
-pre.md-meta-block,
-.md-fences {
-    background-color: #4d4d4d;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-pre.md-meta-block {
-    color: #bdbdbd;
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
 }
 
 #write {
-	line-height: 1.5;
-	padding-left: 60px;
-    padding-right: 60px;
-    max-width: 800px;
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
 }
 
-h1 {
-    font-size: 2.4rem;
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
 }
 
-h2 {
-    font-weight: 600;
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
 }
 
-h3 {
-    font-size:1.4rem
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: normal;
-}
-
-h3 {
-	text-transform: uppercase;
-}
-
-h5, h6 {
-	font-weight: bold;
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
 }
 
 a {
-	color: #fff;
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
 }
 
-[md-inline] a {
-	background-color: #4d4d4d;
-	color: #fff;
-    text-decoration: none;
-    padding: 4px;
-    border-radius: 4px;
-    font-size: 0.9rem;
+@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        border-top: 1px solid #eee;
+        margin-top: .3em;
+    }
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
 }
 
 code {
-    color: #d8edff;
-    font-size: 0.9rem;
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
 }
 
-td {
-	border: 1px solid #666;
-	background-color: #858585;
-	padding-left: 8px;
-}
-
-th {
-	color: #B3B3B3;
-	font-weight: 400;
-	text-align: center;
-}
-
-.md-fences .CodeMirror.CodeMirror-wrap {
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
     padding-top: 8px;
-    padding-bottom: 8px;
- }
-
-.file-list-item-summary {
-	height: 36px;
-    margin-top: 8px;
+    padding-bottom: 6px;
 }
 
-.file-list-item {
-	padding-top: 16px;
-    padding-bottom: 16px;
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
 }
 
-#write {
-	cursor: -webkit-image-set(url("file:///C://Users//LeeWe//AppData//Roaming//Typora/themes/ash/cursor.png") 1x, url("file:///C://Users//LeeWe//AppData//Roaming//Typora/themes/ash/cursor@2x.png") 2x) 0 0, auto;
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
 }
 
-/*blockquote {
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    position: relative;
-    background: var(--code-block-bg-color);
+.md-fences {
+	background-color: #f8f8f8;
 }
-blockquote:before {
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-    position: absolute;
-    top: 30px;
-    float: left;
-}*/
-
-blockquote {
-    text-align: left;
-    font: 16px/24px Arial, sans-serif;
-    color: #d4d4d4;
-    padding: 0.5em 10px;
-    margin: 1.5em 10px;
-    position: relative;
-    padding-left: 24px;
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
 }
 
-blockquote:before {
-    content: open-quote;
-    font-size: 24pt;
-    text-align: center;
-    line-height: 42px;
-    color: #fff;
-    background: #ddd;
-    float: left;
-    position: absolute;
-    border-radius: 25px;
-    /* margin-right: 0.5em; */
-    left: -8px;
-    vertical-align: -0.4em;
-    display: block;
-    height: 25px;
-    width: 25px;
-    background-color: #555;
-    font-style: normal;
-    transition: all 350ms;
-    -o-transition: all 350ms;
-    -moz-transition: all 350ms;
-    -webkit-transition: all 350ms;
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
 }
 
-#write > blockquote:after {
-    content: no-close-quote;
+.md-mathjax-midline {
+    background: #fafafa;
 }
 
-.task-list-item input{
-    width: 1.25rem;
-    height: 1.25rem;
-    display: block;
-    -webkit-appearance: initial;
-    top: -2px;
-    left: -18px;
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
 }
 
-.task-list-item input:focus{
-    outline: none;
-    box-shadow: none;
-}
-
-.task-list-item input:before{
-    border: 1px solid #d4d4d4;
-    border-radius: 1.2rem;
-    width: 1.2rem;
-    height: 1.2rem;
-    background: #666;
-    content: ' ';
-    transition: background-color 200ms ease-in-out;
-    display: block;
-}
-
-.task-list-item input:checked:before,
-.task-list-item input[checked]:before{
-    background: #d4d4d4;
-    border-width: 2px;
-    display:inline-block;
-    transition: background-color 200ms ease-in-out;
-}
-
-.task-list-item input:checked:after,
-.task-list-item input[checked]:after {
+.md-tag {
+    color: #a7a7a7;
     opacity: 1;
 }
 
-.task-list-item input:after {
-    opacity: 1;
-    -webkit-transition: opacity 0.05s ease-in-out;
-    -moz-transition: opacity 0.05s ease-in-out;
-    transition: opacity 0.05s ease-in-out;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    position: absolute;
-    top: 0.325rem;
-    left: 0.28125rem;
-    width: 0.6375rem;
-    height: 0.4rem;
-    border: 3px solid #666;
-    border-top: 0;
-    border-right: 0;
-    content: ' ';
-    opacity: 0;
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
 }
 
-.task-list-done {
-    text-decoration: line-through;
-    color: #d4d4d4;
+.sidebar-tabs {
+    border-bottom: none;
 }
 
-.footnote-line {
-    color: #dddddd;
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
 }
 
-.md-footnote .md-meta {
-   color: #6886ba;
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
 }
 
-.md-content {
-    color: #d9cbbe;
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
 }
 
-.megamenu-content {
-    background: #666;
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
 }
 
-.megamenu-menu{
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
     background-color: var(--side-bar-bg-color);
 }
 
-.megamenu-menu-header {
-    border-bottom: 0;
+.md-lang {
+    color: #b4654d;
 }
 
-.megamenu-opened header {
-    background: transparent;
-    background: #666;
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
 }
 
-#m-import-local:hover .preference-item-hint {
-    color: var(--item-hover-text-color);
+#md-notification .btn {
+    border: 0;
 }
 
-.megamenu-menu-panel tbody tr:hover td:nth-child(1) {
-    color: var(--item-hover-text-color);
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
 }
 
-.megamenu-menu-panel table td:nth-child(1) {
-    color: var(--text-color);
+.ty-preferences .window-content {
+    background-color: #fafafa;
 }
 
-#recent-file-panel {
-    color: var(--blur-text-color);
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
 }
-
-footer.ty-footer {
-    border-top: 1px solid #555;;
-}
-
-.CodeMirror-gutters {
-    border-right: none;
-}
-
 
 
 </style>
 </head>
 <body class='typora-export os-windows'>
-<div id='write'  class=''><blockquote><p><span>这个页面将会帮助你了解一些有关缙云中学校园语言研究所得基本信息</span></p></blockquote><hr /><h5><a name="・什么是缙云中学校园语言研究所" class="md-header-anchor"></a><span>・什么是缙云中学校园语言研究所？</span></h5><p><span>缙云中学校园语言研究所（Jinyun HighSchool Languge Reasearch Institute），是由中国浙江省重点高中缙云中学的部分学子自发组成的、以</span><strong><span>推动缙云中学校园语言文化事业建设</span></strong><span>为目的、以</span><strong><span>“开放・尊重・共享”</span></strong><span>为原则、以</span><strong><span>学生自身为根本</span></strong><span>的校园非官方学生组织。它与缙云中学官方（通常指学校行政层）没有任何直接联系，没有任何义务去接受官方的任何指导，是一个独立的非社团性组织，是一个代表学生的发声平台。</span></p><p><span>通常而言，我们会根据现实情况创造出一些具有</span><strong><span>“缙中特色”</span></strong><span>的词汇并公之于众，借此形式来表达特定的学生诉求。</span></p><p><span>  例如：</span></p><blockquote><p><span>【近终人/近终学子】谐音“缙中人/缙中学子”。该词为对那些因学习压力大、睡眠不足、身体虚弱等原因而感到自己在下一秒便要猝死的在缙云中学就读的一类学子的的泛称。多含自嘲意。</span></p><p><span>用法示例：昨天我依然只睡了六个小时，我觉得我可真的是~啊</span></p></blockquote><p><span>  当然，我们也会通过</span><strong><span>创造词汇、规定词意等方式</span></strong><span>对缙中的一些事物进行纪念。</span></p><p><span>  例如：</span></p><blockquote><p><span>【缙中月饼】每年中秋节缙云中学都会为学生与教职工发放的特制月饼。上面一般印有“我爱缙中”“缙中必胜”的标示。一般有抹茶、巧克力、蛋黄、芙蓉四种口味。</span></p><p><span>注明：该词仍待编辑。该词词义存在错误。</span></p></blockquote><p><span>所有人都可以参与词汇的装作与编辑。我们衷心希望广大缙中学子，无论是在校的还是已经毕业的，都能为我们的事业添砖加瓦。</span></p><p><span>但是目前，</span><strong><span>缙云中学校园语言研究所</span></strong><span>在业务上不仅仅局限于</span><strong><span>创造词汇</span></strong><span>，我们还会接受学生的一些</span><strong><span>原创作品</span></strong><span>（包括文章、摄影等，但不包括视频），并将之整合入我们能够提供的Web服务里，使得人们可以利用我们的官方App中的搜索引擎访问。</span></p><p>&nbsp;</p><h5><a name="・它是怎么运作的" class="md-header-anchor"></a><span>・它是怎么运作的？</span></h5><p><span>  目前而言，研究所的主要运作依靠于</span><strong><span>研究所的的空间公众号</span></strong><span>（</span><em><span>您可以在腾讯QQ添加好友一栏输入3378708961以添加我所公众号为好友</span></em><span>），我所会在上面不定期发布一些我所的创作成果。</span><strong><span>对于安卓用户</span></strong><span>，我们</span><strong><span>研究所技术组</span></strong><span>推出了研究所的移动端App，目前还在内测中。等相关测试完成后便会面向大众发布。</span></p><p><span>  同时，他人对于我所工作的参与也同样依赖于公众号。</span></p><p><span>  而所有创作成果都会上传至研究所官方账户的Github进行保存。</span></p><hr /><p><span>该页面仍然在编辑中......您可以点击</span><a href='https://jzlanguageresearchinstitute.github.io/JZLanguageReIn/Index.html'><span>此处</span></a><span>返回官网</span></p><p>&nbsp;</p></div>
+<div id='write'  class=''><blockquote><p><span>这个页面将会帮助你了解一些有关缙云中学校园语言研究所的基本信息</span></p></blockquote><hr /><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n56"><a class="md-toc-inner" href="#关于缙云中学校园语言研究所">关于缙云中学校园语言研究所</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n54"><a class="md-toc-inner" href="#・什么是缙云中学校园语言研究所">・什么是缙云中学校园语言研究所？</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n76"><a class="md-toc-inner" href="#·-缙云中学校园语言研究所的业务是"> · 缙云中学校园语言研究所的业务是？</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n45"><a class="md-toc-inner" href="#・它是怎么运作的">・它是怎么运作的？</a></span></p></div><h4><a name="关于缙云中学校园语言研究所" class="md-header-anchor"></a><span>关于缙云中学校园语言研究所</span></h4><h5><a name="・什么是缙云中学校园语言研究所" class="md-header-anchor"></a><span>・什么是缙云中学校园语言研究所？</span></h5><p><span>缙云中学校园语言研究所（Jinyun HighSchool Languge Reasearch Institute），是由中国浙江省重点高中缙云中学的部分学子自发组成的、以</span><strong><span>推动缙云中学校园语言文化事业建设</span></strong><span>为目的、以</span><strong><span>“开放・尊重・共享”</span></strong><span>为原则、以</span><strong><span>学生自身为根本</span></strong><span>的校园非官方学生组织。它始建2019年9月7日，迄今为止已走过一年多的历程。</span><strong><span>但是目前</span></strong><span>随着研究所词典编纂组及技术组成员的毕业，缙云中学校园语言研究所已经进入到冷运营流程，我们计划于2021年7月14日正式注销缙云中学校园语言研究所，终止大部分研究所所能提供的服务。</span></p><blockquote><p><strong><span>另外需要说明的是</span></strong><span>，缙云中学校园语言研究所与缙云中学官方（通常指学校行政层）没有任何直接联系，没有任何义务去接受官方的任何指导，是一个独立的非社团性组织，是一个代表学生的发声平台。</span></p></blockquote><hr /><h5><a name="·-缙云中学校园语言研究所的业务是" class="md-header-anchor"></a><span> · 缙云中学校园语言研究所的业务是？</span></h5><p><span>缙云中学校园语言研究所主要有以下业务（或者换言之为广大缙中学子提供的服务）：</span></p><ol><li><p><span>收集编纂具有</span><strong><span>缙中特色的词汇</span></strong><span>，通过创造词汇、规定词意的方式对缙中的一些事物进行纪念,或是传递学生诉求。例如</span><a href='https://leewendao.gitee.io/jinzhong/db/word/近终人.html'><span>【近终人】</span></a><span>一词：</span></p><blockquote><p><span>【近终人/近终学子】谐音“缙中人/缙中学子”。该词为对那些因学习压力大、睡眠不足、身体虚弱等原因而感到自己在下一秒便要猝死的在缙云中学就读的一类学子的的泛称。多含自嘲意。</span></p></blockquote></li><li><p><strong><span>汇编并公开展示研究所收录成果</span></strong><span>。您现在看到的页面也正是这一服务的成果之一，它运行于我们在Github或Gitee（根据您访问的入口不同而不同）上配置的Pages服务之上。您可以这样理解：</span><strong><u><span>为了便于公众了解研究所成果、了解研究所，我们搭建了一个网站</span></u></strong><span>。同时，我们暂时绑定了一个域名，您可以通过</span><a href='http://www.otterdaily.cn' target='_blank' class='url'>www.otterdaily.cn</a><span>这一链接访问研究所官网。</span></p></li><li><p><span>对研究所自身进行日常维护。包括接受</span><u><span>学生投稿（欢迎一切原创内容投稿）</span></u><span>、更新研究所官网词库等。</span></p></li></ol><p><span>上述内容为研究所的基本业务。如果您有任何疑惑，还请联系研究所官方QQ公众号（3378708961）。</span></p><h5><a name="・它是怎么运作的" class="md-header-anchor"></a><span>・它是怎么运作的？</span></h5><p><span>  研究所的运作主要依赖于三者：QQ公众号、GithubPages、GiteePages。</span></p><p><span>QQ公众号是</span><strong><span>研究所运营的核心</span></strong><span>。它也是常规情况下研究所与广大缙中学子或其他朋友交换信息的</span><strong><span>唯一渠道</span></strong><span>。研究所的相关动态、通知发布等，都依赖于该QQ公众号。您可以通过添加我所QQ公众号(QQ3378708961)来获取更多信息。</span></p><p><span>GithubPages和GiteePages是</span><strong><span>研究所官网建立的基础</span></strong><span>。两者的区别在于其服务的提供方不一样：GithubPages由Github提供，而GiteePages由国内的码云提供。由于GithubPages的服务器位于海外，通常情况下使用GiteePages服务将更为快捷稳定。</span></p><p><span>研究所的总体运行流程为：由公众号收集信息（词汇等）并将这些内容进行汇合整理之后，放在研究所的官网上以供公众查询，在此过程之中公众号也会发布相关信息。</span></p><hr /><p><span>以上即为研究所的相关信息，您可以通过</span><a href='https://leewendao.gitee.io/jinzhong/Index.html'><span>点击此处</span></a><span>返回研究所官网。</span></p><p>&nbsp;</p></div>
 </body>
 </html>
