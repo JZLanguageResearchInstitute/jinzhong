@@ -6,11 +6,11 @@ jinzhong，是我本人与几个好友在高中时期建立的一个名为“缙
 
 它的流程是这样的：
 
-<img src="./db/pic/Map1.jpg" alt="map1" style="zoom:50%;" />
+<img src="https://gitee.com/leewendao/jinzhong/raw/master/db/pic/Map1.jpg" alt="map1" style="zoom:50%;" />
 
 为了方便用户访问，我们为其绑定了域名并再次借助第三方工具Fusion App制作了安卓端的APP,我们命名之为“ChinaRed”。因而它的完整人机交互过程是这样的：
 
-<img src="./db/pic/map2.jpg" alt="Map2" style="zoom:50%;" />
+<img src="https://gitee.com/leewendao/jinzhong/raw/master/db/pic/map2.jpg" alt="Map2" style="zoom:50%;" />
 
 有几件事是毫无疑问的：
 
