@@ -40,17 +40,17 @@ jinzhong的一切内容基于GithubPages为用户访问查阅。
 
 绝大部分词汇都存放于`./db/word`文件夹下，您可以通过该链接访问您想要查看的词汇或页面：
 
-`https://jzlanguageresearchinstitute.github.io/jinzhong/db/words/$$.html`
+`https://jzlanguageresearchinstitute.github.io/jinzhong/db/word/$$.html`
 
 或：
 
-`https://www.otterdaily.cn/db/words/$$.html`
+`https://www.otterdaily.cn/db/word/$$.html`
 
 `$$`即您需要查阅的条目名称，在输入时将`$$`换成您想要查阅的条目名称即可。
 
 例如我要查阅*“月下散步”*一词，输入：
 
-`https://www.otterdaily.cn/db/words/月下散步.html`
+`https://www.otterdaily.cn/db/word/月下散步.html`
 
 即可。
 
@@ -58,6 +58,6 @@ jinzhong的一切内容基于GithubPages为用户访问查阅。
 
 若您不知道有哪些内容可以查阅，我们预先编写了检索目录供您查询，您可以通过
 
-`https://www.otterdaily.cn/db/words/检索.html`
+`https://www.otterdaily.cn/db/word/检索.html`
 
 查看有哪些条目可以查阅。
